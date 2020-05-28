@@ -1,15 +1,13 @@
 class Node{
-    private int data;
-    private Node next;
-
-    public Node(int data){
-        this.data = data;
-    }
+    int data;
+    Node next;
 }
 
 public class DynamicStack{
-    private Node top;
     public static void main(String [] args){
-        
+        Node top = new Node();
+        top.data = 2;
+        System.out.println(top.data); 
     }
+    
 }
