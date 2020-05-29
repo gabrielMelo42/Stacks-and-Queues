@@ -28,6 +28,11 @@ public class DynamicStack{
         }
         else return false;
     }
+    
+    int numberOfElements(){
+        int number = top + 1;
+        return number;
+    }
 
     public static void main(String [] args){}
 }
