@@ -21,6 +21,13 @@ public class DynamicStack{
         top++;
         return true;
     }
+    
+    boolean isEmpty(){
+        if(top < 0){
+            return true;
+        }
+        else return false;
+    }
 
     public static void main(String [] args){}
 }
