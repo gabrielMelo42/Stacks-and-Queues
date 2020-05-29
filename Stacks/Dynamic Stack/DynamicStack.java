@@ -1,8 +1,3 @@
-class Node{
-    int data;
-    Node next;
-}
-
 public class DynamicStack{
     public static void main(String [] args){
         Node top = new Node();
