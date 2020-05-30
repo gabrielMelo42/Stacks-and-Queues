@@ -39,5 +39,4 @@ public class StaticStack{
         return number;
     }
     
-    public static void main(String [] args){}
 }
