@@ -6,7 +6,7 @@ public class DynamicStack{
     }
     
     int pop(){
-        if(!top) return -1;
+        if(top == null) return -1;
         int dataToReturn = top.data;
         top = top.next;
         return dataToReturn;
