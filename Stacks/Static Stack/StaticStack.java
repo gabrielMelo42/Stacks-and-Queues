@@ -4,7 +4,7 @@ public class StaticStack{
     
     void initialize(){
         for(int i = 0; i < stack.length; i++){
-            stack[i].data = -1;
+            stack[i] = -1;
         }
         top = -1;
     }
