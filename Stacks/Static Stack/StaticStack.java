@@ -9,5 +9,14 @@ public class StaticStack{
         top = -1;
     }
     
+    int pop(){
+        if(top <= -1){
+            return -1;
+        }
+        int dataToReturn = top.data;
+        top--;
+        return dataToReturn;
+    }
+    
     public static void main(String [] args){}
 }
