@@ -25,8 +25,12 @@ public class DynamicStack{
     }
     
     int numberOfElements(){
-        int number = top + 1;
+        if(top == null) return 0;
+        Node p = top;
+        int number = 0;
+        while(p != null){
+            number++;
+        }
         return number;
     }
-
 }
