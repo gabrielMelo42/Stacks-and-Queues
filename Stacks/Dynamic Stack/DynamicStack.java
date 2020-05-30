@@ -19,6 +19,11 @@ public class DynamicStack{
         top = newNode;
     }
 
+    int peek(){
+        if(top == null) return -1;
+        return top.data;
+    }
+    
    boolean isEmpty(){
         if(top == null) return true;
         else return false;
