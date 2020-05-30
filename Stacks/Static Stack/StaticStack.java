@@ -18,7 +18,7 @@ public class StaticStack{
         return dataToReturn;
     }
     
-    boolean push(int newData){
+    boolean push(int newData){ 
         if(top >= stack.length - 1){
             return false;
         }
