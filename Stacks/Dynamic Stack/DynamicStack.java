@@ -19,10 +19,8 @@ public class DynamicStack{
         top = newNode;
     }
 
-    boolean isEmpty(){
-        if(top < 0){
-            return true;
-        }
+   boolean isEmpty(){
+        if(top == null) return true;
         else return false;
     }
     
