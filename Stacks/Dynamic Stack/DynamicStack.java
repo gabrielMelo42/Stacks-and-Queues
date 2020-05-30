@@ -12,15 +12,13 @@ public class DynamicStack{
         return dataToReturn;
     }
     
-    boolean push(int newData){
-        if(top >= stack.length - 1){
-            return false;
-        }
-        stack[top + 1] = newData; 
-        top++;
-        return true;
+    void push(int newData){
+        Node newNode = new Node();
+        newNode.data = newData;
+        newNode.next = top;
+        top = newNode;
     }
-    
+
     boolean isEmpty(){
         if(top < 0){
             return true;
