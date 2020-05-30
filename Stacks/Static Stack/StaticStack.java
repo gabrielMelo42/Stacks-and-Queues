@@ -13,7 +13,7 @@ public class StaticStack{
         if(top <= -1){
             return -1;
         }
-        int dataToReturn = top.data;
+        int dataToReturn = stack[top];
         top--;
         return dataToReturn;
     }
