@@ -18,5 +18,14 @@ public class StaticStack{
         return dataToReturn;
     }
     
+    boolean push(int newData){
+        if(top >= stack.length - 1){
+            return false;
+        }
+        stack[top + 1] = newData; 
+        top++;
+        return true;
+    }
+    
     public static void main(String [] args){}
 }
