@@ -34,5 +34,4 @@ public class DynamicStack{
         return number;
     }
 
-    public static void main(String [] args){}
 }
