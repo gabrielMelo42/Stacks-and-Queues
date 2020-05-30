@@ -2,8 +2,7 @@ public class DynamicStack{
     Node top;
     
     void initialize(){
-        top.next = null;
-        top.data = -1;
+        top = null;    
     }
     
     int pop(){
