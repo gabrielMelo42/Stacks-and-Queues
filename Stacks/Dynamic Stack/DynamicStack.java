@@ -35,6 +35,7 @@ public class DynamicStack{
         int number = 0;
         while(p != null){
             number++;
+            p = p.next;
         }
         return number;
     }
