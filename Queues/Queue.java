@@ -12,7 +12,16 @@ public class Queue{
         else{
             return false;
         }
-        
+
+    }
+
+    int peek(){
+        if(isEmpty != null){
+            return first.data;
+        }
+        else{
+            return -1;
+        }
     }
 
 
@@ -46,13 +55,7 @@ public class Queue{
         myQueue.add(19);
         myQueue.remove();
         myQueue.add(200);
-    
-    
     }
-
-
-
-
 }
 
 
