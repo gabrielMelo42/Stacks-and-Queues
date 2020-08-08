@@ -18,4 +18,31 @@ public class Queue{
         last = newNode;
     }
 
+
+
+    public static void main(tring [] args){
+        Queue myQueue = new Queue();
+        myQueue.add(2);
+        myQueue.remove();
+        myQueue.add(10);
+        myQueue.add(12);
+        myQueue.remove();
+        myQueue.add(16);
+        myQueue.add(17);
+        myQueue.remove();
+        myQueue.add(18);
+        myQueue.add(19);
+        myQueue.remove();
+        myQueue.add(200);
+    
+    
+    }
+
+
+
+
 }
+
+
+
+
