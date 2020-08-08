@@ -3,6 +3,18 @@ public class Queue{
     private int last;
 
 
+    boolean isEmpty(){
+        
+        if(first == null){
+            return true;
+        }
+
+        else{
+            return false;
+        }
+        
+    }
+
 
     void add(int newValue){
         Node newNode = new Node(newValue);
