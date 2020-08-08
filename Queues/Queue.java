@@ -31,7 +31,7 @@ public class Queue{
         if(isEmpty() == false){
             last.next = newNode;
         }
-
+ji
         else{
             first = newNode;
         }     
@@ -39,6 +39,24 @@ public class Queue{
         last = newNode;
     }
 
+
+    int remove(){
+        if(isEmpty() == true){
+            System.out.println("Fila vazia, nao ha como remover elemento");
+            return -1;
+        }
+
+        int data = first.data;
+        f
+        irst = first.next;        
+    
+
+        if(first == null){
+            last = null;
+        }
+
+        return data;
+    }
 
 
     public static void main(tring [] args){
