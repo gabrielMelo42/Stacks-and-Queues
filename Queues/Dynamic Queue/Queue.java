@@ -1,7 +1,11 @@
 public class Queue{
-    private int first;
-    private int last;
+    private Node first;
+    private Node last;
 
+    public Queue(){
+        this.first = null;
+        this.last = null;
+    }
 
     boolean isEmpty(){
         
@@ -15,8 +19,12 @@ public class Queue{
 
     }
 
+
+
     int peek(){
         if(isEmpty != null){
+
+
             return first.data;
         }
         else{
@@ -31,7 +39,7 @@ public class Queue{
         if(isEmpty() == false){
             last.next = newNode;
         }
-ji
+
         else{
             first = newNode;
         }     
@@ -42,13 +50,12 @@ ji
 
     int remove(){
         if(isEmpty() == true){
-            System.out.println("Fila vazia, nao ha como remover elemento");
+            System.out.println("Empty queue");
             return -1;
         }
 
         int data = first.data;
-        f
-        irst = first.next;        
+        first = first.next;        
     
 
         if(first == null){
@@ -59,7 +66,8 @@ ji
     }
 
 
-    public static void main(tring [] args){
+
+    public static void main(String [] args){
         Queue myQueue = new Queue();
         myQueue.add(2);
         myQueue.remove();
@@ -75,7 +83,6 @@ ji
         myQueue.add(200);
     }
 }
-
 
 
 
